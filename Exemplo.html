@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.logo{
+			margin-left: 5%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 2%;
+		}
+		.container{
+			width: 100%;
+			text-align: center;
+		}
+		#apresentacao{
+			background-color: DodgerBlue;
+			height: 400px;
+		}
+		#apresentacao2, #apresentacao3{
+			height: 600px;
+		}
+		.texto{
+			float: left;
+			width: 50%;
+			height: 50%;
+			margin-top: 150px;
+		}
+		.imagem{
+			float: right;
+			width: 50%;
+			margin-top: 50px;
+		}
+		.texto2{
+			float: right;
+			width: 50%;
+			height: 50%;
+			margin-top: 300px;
+		}
+		.imagem2{
+			float: left;
+			width: 50%;
+			margin-top: 150px;
+		}
+		.servicos{
+			background-color: #ffa500;
+			margin-left: 15%;
+			margin-right: 15%;
+			height: 300px;
+		}
+		.texto3, .texto4{
+			width: 50%;
+			float: left;
+			margin-top: 100px;
+			text-align: center;
+		}
+		.texto5{
+			float: right;
+			width: 50%;
+			height: 50%;
+			margin-top: 300px;
+		}
+		.imagem3{
+			float: left;
+			width: 50%;
+			margin-top: 150px;
+		}
+
+		@media (max-width: 500px){
+			.logo, .imagem, .imagem2, .imagem3, .texto, .texto2, .texto3, .texto4, .texto5{
+				width: 100%;
+			}
+			#apresentacao, #apresentacao3{
+				height: 100%;
+			}
+			.texto{
+				margin-top: 20px;
+			}
+			.texto2{
+				margin-top: 20px;
+				float: left;
+			}
+			.imagem2{
+				float: right;
+			}
+
+			
+		}
+	</style>
+	<title>
+		Título
+	</title>
+</head>
+<body>
+	<div class="logo">
+		<h1><img src="images.png" width=30%></h1>
+	</div>
+
+	<div class="container" id="apresentacao">
+		<div class="texto">
+			<p><h2>Lorem ipsum cubilia condimentum ut ac tempus</h2></p> 
+			<p>rhoncus massa eleifend, scelerisque sollicitudin</p> 
+			<p>lacus lorem id donec lorem. lacinia eleifend fusce </p>
+			<p>suspendisse laoreet ac fringilla augue, luctus vel </p>
+			<p>orci scelerisque conubia aptent hendrerit porttitor, </p>
+			<p>neque pretium aliquam tellus class vulputate.</p> 
+		</div> 
+		<div class="imagem">
+			<img src="example.png" width=40%>
+		</div>
+	</div>
+
+	<div class="container" id="apresentacao2">
+		<div class="texto2">
+			<p><h2>Lorem ipsum cubilia condimentum ut ac tempus</h2></p> 
+			<p>rhoncus massa eleifend, scelerisque sollicitudin</p> 
+			<p>lacus lorem id donec lorem. lacinia eleifend fusce </p>
+			<p>suspendisse laoreet ac fringilla augue, luctus vel </p>
+			<p>orci scelerisque conubia aptent hendrerit porttitor, </p>
+			<p>neque pretium aliquam tellus class vulputate.</p> 
+		</div> 
+		<div class="imagem2">
+			<img src="example.png" width=40%>
+		</div>
+	</div>
+
+	<div class="servicos">
+		<div class="texto3">
+			<p><h2>Lorem ipsum cubilia</h2></p> 
+			<p>ut ac tempus rhoncus massa eleifend,</p>
+			<p>scelerisque sollicitudin lacus lorem </p>
+			<p>id donec lorem. lacinia eleifend fusce</p>
+			<p>suspendisse laoreet ac fringilla augue,</p> 
+			<p>luctus vel orci scelerisque conubia </p>
+			<p>aptent hendrerit porttitor, neque </p>
+			<p>pretium aliquam tellus class vulputate.</p> 
+		</div> 
+		<div class="texto4">
+			<ul>
+				<p><li>Lorem ipsum cubilia condimentum ut ac tempus</li></p> 
+				<p><li>Rhoncus massa eleifend, scelerisque sollicitudin</li></p> 
+				<p><li>Lacus lorem id donec lorem. lacinia eleifend fusce</li></p>
+			</ul>
+		</div>	
+	</div>
+
+	<div class="container" id="apresentacao3">
+		<div class="texto5">
+			<p><h2>Lorem ipsum cubilia condimentum ut ac tempus</h2></p> 
+			<p>rhoncus massa eleifend, scelerisque sollicitudin</p> 
+			<p>lacus lorem id donec lorem. lacinia eleifend fusce </p>
+			<p>suspendisse laoreet ac fringilla augue, luctus vel </p>
+			<p>orci scelerisque conubia aptent hendrerit porttitor, </p>
+			<p>neque pretium aliquam tellus class vulputate.</p> 
+		</div> 
+		<div class="imagem3">
+			<img src="example.png" width=40%>
+		</div>
+	</div>
+</body>
+</html>
