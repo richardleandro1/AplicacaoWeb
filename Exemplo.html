@@ -48,6 +48,7 @@
 		.imagem2{
 			float: left;
 			width: 50%;
+			height: 50%;
 			margin-top: 150px;
 		}
 		.servicos{
@@ -68,14 +69,32 @@
 			height: 50%;
 			margin-top: 300px;
 		}
+		.texto6{
+			float: right;
+			width: 50%;
+			margin-top: 15%;
+		}
 		.imagem3{
 			float: left;
 			width: 50%;
 			margin-top: 150px;
 		}
-
+		.imagem4{
+			float: left;
+			width: 50%;
+			margin-top: 10%;
+		}
+		#contato{
+			background-color: DodgerBlue;
+			height: 400px;
+			margin-bottom: 100px;
+		}
+		#detalhe{
+			background-color: #ffa500;
+			height: 10px;
+		}
 		@media (max-width: 500px){
-			.logo, .imagem, .imagem2, .imagem3, .texto, .texto2, .texto3, .texto4, .texto5{
+			.logo, .imagem, .imagem3, .texto, .texto2, .texto3, .texto4, .texto5{
 				width: 100%;
 			}
 			#apresentacao, #apresentacao3{
@@ -85,13 +104,17 @@
 				margin-top: 20px;
 			}
 			.texto2{
-				margin-top: 20px;
+				margin-top: 30px;
 				float: left;
+				align-items: center;
 			}
 			.imagem2{
 				float: right;
+				width: 100%;
 			}
-
+            .servicos{
+            	margin-top: 200px;
+            }
 			
 		}
 	</style>
@@ -165,5 +188,20 @@
 			<img src="example.png" width=40%>
 		</div>
 	</div>
+
+	<div class="container" id="contato">
+		<div class="texto6">
+			<p><h2>Lorem ipsum cubilia condimentum ut ac tempus</h2></p> 
+			<p>rhoncus massa eleifend, scelerisque sollicitudin</p> 
+			<p>lacus lorem id donec lorem. lacinia eleifend fusce </p>
+			<p>suspendisse laoreet ac fringilla augue, luctus vel </p>
+			<p>orci scelerisque conubia aptent hendrerit porttitor, </p>
+			<p>neque pretium aliquam tellus class vulputate.</p> 
+		</div> 
+		<div class="imagem4">
+			<img src="example.png" width=40%>
+		</div>
+	</div>
+	<div id="detalhe"></div>
 </body>
 </html>
