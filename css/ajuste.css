@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 .logo{
     margin-left: 5%;
     display: flex;
@@ -9,74 +6,30 @@
     align-items: center;
     padding: 2%;
 }
-.container{
-    width: 100%;
-    text-align: center;
-}
-#apresentacao{
+
+.apresentacao{
     background-color: DodgerBlue;
-    height: 400px;
 }
-#apresentacao2, #apresentacao3{
-    height: 600px;
+
+
+/*coreas das divs*/
+.orange{
+    background-color: #FBBC05;
+    box-shadow: 10px 10px 0px 0px #4285F4;
+    transition: background-color 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-bottom: 50px;
 }
-.texto{
-    float: left;
-    width: 50%;
-    height: 50%;
-    margin-top: 150px;
+
+.button-social{
+    background-color: #3B5998;
 }
-.imagem{
-    float: right;
-    width: 50%;
-    margin-top: 50px;
+.button-social:hover{
+    background-color: #3B5998;
+    border-color: #3B5998;
 }
-.texto2{
-    float: right;
-    width: 50%;
-    height: 50%;
-    margin-top: 300px;
-}
-.imagem2{
-    float: left;
-    width: 50%;
-    height: 50%;
-    margin-top: 150px;
-}
-.servicos{
-    background-color: #ffa500;
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 300px;
-}
-.texto3, .texto4{
-    width: 50%;
-    float: left;
-    margin-top: 100px;
-    text-align: center;
-}
-.texto5{
-    float: right;
-    width: 50%;
-    height: 50%;
-    margin-top: 300px;
-}
-.texto6{
-    float: right;
-    width: 50%;
-    margin-top: 15%;
-}
-.imagem3{
-    float: left;
-    width: 50%;
-    margin-top: 150px;
-}
-.imagem4{
-    float: left;
-    width: 50%;
-    margin-top: 10%;
-}
-#contato{
+
+
+/* #contato{
     background-color: DodgerBlue;
     height: 400px;
     margin-bottom: 100px;
@@ -92,27 +45,4 @@
 #rodapeEmpresa{
     width: 50%;
 }
-@media (max-width: 500px){
-    .logo, .imagem, .imagem2, .imagem3, .texto, .texto2, .texto3, .texto4, .texto5{
-        width: 100%;
-    }
-    #apresentacao{
-        height: 100%;
-    }
-    #apresentacao3{
-        height: 100%;
-    }
-    .texto{
-        margin-top: 20px;
-    }
-    .texto2{
-        margin-bottom: 0px;
-        margin-top: 20px;
-    }
-    .imagem2{
-        margin-top: 0px;
-    }
-    .servicos{
-        margin-top: 200px;
-    }   
-}
+ */
