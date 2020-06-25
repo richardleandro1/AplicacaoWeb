@@ -96,7 +96,11 @@
     .logo, .imagem, .imagem2, .imagem3, .texto, .texto2, .texto3, .texto4, .texto5{
         width: 100%;
     }
-    #apresentacao, #apresentacao3{
+    #apresentacao{
+        height: 100%;
+        background-color: DodgerBlue;
+    }
+    #apresentacao3{
         height: 100%;
     }
     .texto{
